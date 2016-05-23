@@ -34,7 +34,7 @@ char* strrev1(char* head)
    auto* strhead = head;
    auto* end = head + count - 1;
 
-   while (head != end)
+   while (head >= end)
    {
       std::iter_swap(head, end);
 
